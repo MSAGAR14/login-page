@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>User Management</h2>
+
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+
+    <div class="buttons">
+        <button onclick="createUser()">Create</button>
+        <button onclick="getUsers()">Read</button>
+        <button onclick="updateUser()">Update</button>
+        <button onclick="deleteUser()">Delete</button>
+    </div>
+
+    <ul id="userList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
